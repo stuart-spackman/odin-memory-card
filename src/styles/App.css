@@ -1,0 +1,21 @@
+.title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.score {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.body {
+    height: auto;
+    flex: 1;
+
+    display: grid;
+    gap: 22px;
+
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+}

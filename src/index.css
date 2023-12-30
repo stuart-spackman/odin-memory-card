@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    padding: 33px;
+    flex-direction: column;
+    gap: 33px;
+
+    height: 100%;
+    background-color: lightgray;
+}
+
+#root>div {
+    border: 3px solid black;
+    border-radius: 6px;
+    padding: 22px;
+    background-color: white;
+}
